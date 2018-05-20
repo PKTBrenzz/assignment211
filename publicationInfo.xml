@@ -1,0 +1,128 @@
+<?xml version = "1.0"?>
+
+<publication xmlns:ar="localhost:8080/assignment/article" xmlns:bk="localhost:8080/assignment/book">
+    <ar:articleList> 
+        <ar:article>
+            <ar:title>Human Activity Recognition</ar:title>
+            <ar:date>20 Nov 2016</ar:date>
+            <ar:author>
+                <ar:firstName>Zoran</ar:firstName>
+                <ar:lastName>Salcic</ar:lastName>
+            </ar:author>
+            <ar:volume>12</ar:volume>
+            <ar:summary>This chapter presents methodology of human activity recognition.</ar:summary>
+        </ar:article>
+        <ar:article>
+            <ar:title>Human Gait Analysis</ar:title>
+            <ar:date>16 Jun 2014</ar:date>
+            <ar:author>
+                <ar:firstName>Kevin</ar:firstName>
+                <ar:lastName>Wang</ar:lastName>
+            </ar:author>
+            <ar:volume>10</ar:volume>
+            <ar:summary>This chapter presents methodology of human gait analysis.</ar:summary>
+        </ar:article>
+        <ar:article>
+            <ar:title>Pavement Distress Analysis</ar:title>
+            <ar:date>23 May 2012</ar:date>
+            <ar:author>
+                <ar:firstName>Andrea</ar:firstName>
+                <ar:lastName>Mannini</ar:lastName>
+            </ar:author>
+            <ar:volume>3</ar:volume>
+            <ar:summary>This chapter presents methodology of pavement distress analysis.</ar:summary>
+        </ar:article>
+        <ar:article>
+            <ar:title>The Internet of Things: A Survey</ar:title>
+            <ar:date>26 Apr 2014</ar:date>
+            <ar:author>
+                <ar:firstName>Li</ar:firstName>
+                <ar:lastName>Shancang</ar:lastName>
+            </ar:author>
+            <ar:volume>5</ar:volume>
+            <ar:summary>In this survey the definitions architecture fundamental technologies and applications of IoT are systemically reviewed.</ar:summary>
+        </ar:article>
+        <ar:article>
+            <ar:title>Detecting Turns and Correcting Headings Using Low-Cost INS</ar:title>
+            <ar:date>01 Jul 2017</ar:date>
+            <ar:author>
+                <ar:firstName>Nazrin</ar:firstName>
+                <ar:lastName>Muhammad</ar:lastName>
+            </ar:author>
+            <ar:volume>6</ar:volume>
+            <ar:summary>This paper proposes a novel threshold-less method to detect turns in walking by using pelvic rotation and correct the heading angle based on consumer-grade INSs.</ar:summary>
+        </ar:article>
+        <ar:article>
+            <ar:title>Ultrasonic LPS adaptation for smartphones</ar:title>
+            <ar:date>19 Oct 2013</ar:date>
+            <ar:author>
+                <ar:firstName>David</ar:firstName>
+                <ar:lastName>Gualda</ar:lastName>
+            </ar:author>
+            <ar:volume>9</ar:volume>
+            <ar:summary>In this paper we present a privacy-oriented Ultrasonic Local Positioning System (U-LPS) allowing users with portable devices such as smartphones or tablets to accurately determine their position in indoor environments.</ar:summary>
+        </ar:article>
+    </ar:articleList>
+    <bk:bookList>
+        <bk:book>
+            <bk:title>Simple XML</bk:title>
+            <bk:date>04 Jul 2017</bk:date>
+            <bk:author>
+                <bk:firstName>John</bk:firstName>
+                <bk:lastName>Doe</bk:lastName>
+            </bk:author>
+            <bk:edition>2nd ed</bk:edition>
+            <bk:summary>XML is for describing data.</bk:summary>
+        </bk:book>
+        <bk:book>
+            <bk:title>Simple Javascript</bk:title>
+            <bk:date>20 Feb 2010</bk:date>
+            <bk:author>
+                <bk:firstName>Adam</bk:firstName>
+                <bk:lastName>King</bk:lastName>
+            </bk:author>
+            <bk:edition>4th ed</bk:edition>
+            <bk:summary>Javascript is a client-side programming.</bk:summary>
+        </bk:book>
+        <bk:book>
+            <bk:title>Simple JavaServer Pages</bk:title>
+            <bk:date>12 Dec 2009</bk:date>
+            <bk:author>
+                <bk:firstName>Walter</bk:firstName>
+                <bk:lastName>Sabatini</bk:lastName>
+            </bk:author>
+            <bk:edition>1st ed</bk:edition>
+            <bk:summary>JSP is a server-side programming.</bk:summary>
+        </bk:book>
+        <bk:book>
+            <bk:title>Digital Image Processing</bk:title>
+            <bk:date>31 Aug 2017</bk:date>
+            <bk:author>
+                <bk:firstName>Rafael</bk:firstName>
+                <bk:lastName>Gonzalez</bk:lastName>
+            </bk:author>
+            <bk:edition>3rd ed</bk:edition>
+            <bk:summary>Introduction to basic concepts and methodologies for digital image processing.</bk:summary>
+        </bk:book>
+        <bk:book>
+            <bk:title>The Elements of Statistical Learning</bk:title>
+            <bk:date>03 Apr 2009</bk:date>
+            <bk:author>
+                <bk:firstName>Trevor</bk:firstName>
+                <bk:lastName>Hastie</bk:lastName>
+            </bk:author>
+            <bk:edition>2nd ed</bk:edition>
+            <bk:summary>Introduction to statistical learning.</bk:summary>
+        </bk:book>
+        <bk:book>
+            <bk:title>Machine Learning in Healthcare Informatics</bk:title>
+            <bk:date>17 Oct 2014</bk:date>
+            <bk:author>
+                <bk:firstName>Pradeep</bk:firstName>
+                <bk:lastName>Chowriappa</bk:lastName>
+            </bk:author>
+            <bk:edition>4th ed</bk:edition>
+            <bk:summary>Applications of machine learning in healthcare informatics.</bk:summary>
+        </bk:book>
+    </bk:bookList>
+</publication>

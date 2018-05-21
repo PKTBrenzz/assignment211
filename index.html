@@ -4,16 +4,30 @@
     </head>
     <body>
         <h1>Publication</h1>
-        <form action="http://localhost:8080/assignment/userRequest.jsp">    
+        <form action="http://localhost:8080/assignment/userSearch.jsp">    
+            <label>Filter: </label>
             <input type="text" name="filter">
             <select name="selectedFilter">
                 <option value="title">by Title</option>
-                <option value="Author">by Author</option>
+                <option value="author">by Author</option>
             </select>
             <input type="submit" value="Submit">
         </form>
-        <form action="http://localhost:8080/assignment/userRequest.jsp">
+        <form action="http://localhost:8080/assignment/allInformation.jsp">
             <input type="submit" value="Display all publication information">
+        </form>
+        <form action="http://localhost:8080/assignment/listRequest.jsp">
+            <label>Display list of: </label>
+            <select name="selectedList">
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+            </select>
+            <input type="submit" value="Go">
         </form>        
     </body>
+    <footer>
+        <p>Created by: </p>
+        <p>1. Poong Ka Tsun 132982</p>
+        <p>2. Asadullah Qamar Bin Qamar Siddique Bhatti 132879</p>
+    </footer>
 </html>

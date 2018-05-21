@@ -10,9 +10,11 @@
 %>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <h3>Article</h3>
+    <div id="white_panel">
+    <h1>Article</h1>
     <ul>
         <%for(int i = 0; i < articles.getLength(); i++){%>
         <li>
@@ -34,7 +36,7 @@
         </li>
         <%}%>
     </ul>
-    <h3>Book</h3>
+    <h1>Book</h1>
     <ul>
         <%for(int i = 0; i < books.getLength(); i++){%>
         <li>
@@ -54,5 +56,6 @@
         </li>
         <%}%>
     </ul>
+    </div>
     </body>
 </html>

@@ -1,29 +1,33 @@
 <html>
     <head>
-        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Publication</h1>
-        <form action="http://localhost:8080/assignment/userSearch.jsp">    
-            <label>Filter: </label>
-            <input type="text" name="filter">
-            <select name="selectedFilter">
-                <option value="title">by Title</option>
-                <option value="author">by Author</option>
-            </select>
-            <input type="submit" value="Submit">
-        </form>
-        <form action="http://localhost:8080/assignment/allInformation.jsp">
-            <input type="submit" value="Display all publication information">
-        </form>
-        <form action="http://localhost:8080/assignment/listRequest.jsp">
-            <label>Display list of: </label>
-            <select name="selectedList">
-                <option value="title">Title</option>
-                <option value="author">Author</option>
-            </select>
-            <input type="submit" value="Go">
-        </form>        
+    <div id="container">
+        <div class="panel">
+           <h1>Publication</h1>
+           <form action="http://localhost:8080/assignment/userSearch.jsp">    
+             <label>Filter: </label>
+             <input type="text" name="filter">
+             <select name="selectedFilter">
+                 <option value="title">by Title</option>
+                 <option value="author">by Author</option>
+             </select>
+             <input type="submit" value="Submit">
+            </form>
+            <form action="http://localhost:8080/assignment/allInformation.jsp">
+                <input type="submit" value="Display all publication information">
+            </form>
+            <form action="http://localhost:8080/assignment/listRequest.jsp">
+                <label>Display list of: </label>
+                <select name="selectedList">
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                </select>
+                <input type="submit" value="Go">
+            </form>
+        </div>
+    </div>        
     </body>
     <footer>
         <p>Created by: </p>

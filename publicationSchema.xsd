@@ -1,10 +1,15 @@
 <?xml version="1.0"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:ar="http://localhost:8080/assignment/article"
+        xmlns:bk="http://localhost:8080/assignment/book"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:import schemaLocation="http://localhost:8080/assignment/articleSchema.xsd" namespace="http://localhost:8080/assignment/article">
+    <xs:import schemaLocation="http://localhost:8080/assignment/bookSchema.xsd" namespace="http://localhost:8080/assignment/book">
     <xs:element name = "publication">
         <xs:complexType>
             <xs:sequence>
-                
+                <xs:element ref="ar:articleList"/>
+                <xs:element ref="bk:bookList"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

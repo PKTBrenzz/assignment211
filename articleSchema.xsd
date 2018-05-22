@@ -2,28 +2,28 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     targetNamespace="localhost:8080/assignment/article">
 
-<xs:element name="articleList">
- <xs:complexType>
-  <xs:sequence>
-   <xs:element name="article">
-    <xs:complexType>
-     <xs:sequence>
-      <xs:element name="title" type="string"/>
-      <xs:element name="date" type="date"/>
-      <xs:element name="author">
-       <xs:complexType>
-        <xs:sequence>
-         <xs:element name="firstName" type="string"/>
-         <xs:element name="lastName" type="string"/>
-        </xs:sequence>
-       </xs:complexType>
-      </xs:element>
-      <xs:element name="volume" type="int"/>
-      <xs:element name="summary" type="string"/>
-     </xs:sequence>
-    </xs:complexType>
-   </xs:element>
-  </xs:sequence>
- </xs:complexType>
-</xs:element>
+    <xs:element name="articleList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="article">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="date" type="xs:date"/>
+                            <xs:element name="author">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="firstName" type="xs:string"/>
+                                        <xs:element name="lastName" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="volume" type="xs:int"/>
+                            <xs:element name="summary" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

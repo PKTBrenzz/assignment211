@@ -2,28 +2,28 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     targetNamespace="localhost:8080/assignment/book">
 
-<xs:element name="bookList">
- <xs:complexType>
-  <xs:sequence>
-   <xs:element name="book">
-    <xs:complexType>
-     <xs:sequence>
-      <xs:element name="title" type="string"/>
-      <xs:element name="date" type="date"/>
-      <xs:element name="author">
-       <xs:complexType>
-        <xs:sequence>
-         <xs:element name="firstName" type="string"/>
-         <xs:element name="lastName" type="string"/>
-        </xs:sequence>
-       </xs:complexType>
-      </xs:element>
-      <xs:element name="edition" type="string"/>
-      <xs:element name="summary" type="string"/>
-     </xs:sequence>
-    </xs:complexType>
-   </xs:element>
-  </xs:sequence>
- </xs:complexType>
-</xs:element>
+    <xs:element name="bookList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="book">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="string"/>
+                            <xs:element name="date" type="date"/>
+                            <xs:element name="author">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="firstName" type="string"/>
+                                        <xs:element name="lastName" type="string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="edition" type="string"/>
+                            <xs:element name="summary" type="string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

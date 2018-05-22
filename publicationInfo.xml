@@ -1,6 +1,8 @@
 <?xml version = "1.0"?>
 
-<publication xmlns:ar="localhost:8080/assignment/article" xmlns:bk="localhost:8080/assignment/book">
+<publication xmlns:ar="http://localhost:8080/assignment/article" xmlns:bk="http://localhost:8080/assignment/book"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://localhost:8080/assignment/publicationSchema.xsd">
     <ar:articleList> 
         <ar:article>
             <ar:title>Human Activity Recognition</ar:title>
